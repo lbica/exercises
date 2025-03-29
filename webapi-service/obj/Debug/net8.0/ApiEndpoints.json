@@ -1,0 +1,105 @@
+[
+  {
+    "ContainingType": "datarepository_service.Controllers.BusinessAreasController",
+    "Method": "GetAllBusinessAreas",
+    "RelativePath": "api/v1/businessareas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "datarepository_service.Dtos.ResponseDto\u00601[[System.Collections.Generic.IList\u00601[[datarepository_service.Dtos.BusinessAreaReadDto, datarepository-service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "datarepository_service.Controllers.StrategiesController",
+    "Method": "GetStrategiesByBusinessAreaId",
+    "RelativePath": "api/v1/BusinessAreas/{businessAreaId}/$/GetStrategiesByBusinessAreaId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "businessAreaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "datarepository_service.Dtos.ResponseDto\u00601[[System.Collections.Generic.IList\u00601[[datarepository_service.Dtos.StrategyReadDto, datarepository-service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "datarepository_service.Controllers.StrategiesController",
+    "Method": "ChangeStrategyName",
+    "RelativePath": "api/v1/Strategies/{strategyId}/$/ChangeStrategyName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "strategyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dtoRequest",
+        "Type": "datarepository_service.Dtos.ChangeStrategyNameDto\u002BChangeStrategyNameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "datarepository_service.Dtos.ResponseDto\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "datarepository_service.Controllers.StrategiesController",
+    "Method": "AddStrategy",
+    "RelativePath": "api/v1/Strategies/$/AddStrategy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "strategyCreateDto",
+        "Type": "datarepository_service.Dtos.StrategyCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "datarepository_service.Dtos.ResponseDto\u00601[[datarepository_service.Dtos.StrategyReadDto, datarepository-service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

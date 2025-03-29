@@ -1,0 +1,406 @@
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\appsettings.Development.json
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\appsettings.json
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.exe
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\log4net.config
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.deps.json
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.runtimeconfig.json
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.pdb
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\AutoMapper.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Humanizer.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\log4net.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.CodeDom.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.csproj.AssemblyReference.cache
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.AssemblyInfoInputs.cache
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.AssemblyInfo.cs
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.csproj.CoreCompileInputs.cache
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets.build.json
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets.development.json
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.datarepository-service.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.build.datarepository-service.props
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.datarepository-service.props
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.datarepository-service.props
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\scopedcss\bundle\datarepository-service.styles.css
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepo.A5F5E09E.Up2Date
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\refint\datarepository-service.dll
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.pdb
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.genruntimeconfig.cache
+D:\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\ref\datarepository-service.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\appsettings.Development.json
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\appsettings.json
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.exe
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\log4net.config
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.deps.json
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.runtimeconfig.json
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\datarepository-service.pdb
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\AutoMapper.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Humanizer.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\log4net.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.CodeDom.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.csproj.AssemblyReference.cache
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.AssemblyInfoInputs.cache
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.AssemblyInfo.cs
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.csproj.CoreCompileInputs.cache
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.MvcApplicationPartsAssemblyInfo.cs
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.MvcApplicationPartsAssemblyInfo.cache
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets.build.json
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets.development.json
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.datarepository-service.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.build.datarepository-service.props
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.datarepository-service.props
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.datarepository-service.props
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\scopedcss\bundle\datarepository-service.styles.css
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepo.A5F5E09E.Up2Date
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\refint\datarepository-service.dll
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.pdb
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\datarepository-service.genruntimeconfig.cache
+C:\Drive D\Projects\karma\code\karma-microservices\karma-microservices\datarepository-service\obj\Debug\net8.0\ref\datarepository-service.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\appsettings.Development.json
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\appsettings.json
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\datarepository-service.exe
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\log4net.config
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\datarepository-service.deps.json
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\datarepository-service.runtimeconfig.json
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\datarepository-service.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\datarepository-service.pdb
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\AutoMapper.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Humanizer.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\log4net.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\System.CodeDom.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.csproj.AssemblyReference.cache
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.AssemblyInfoInputs.cache
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.AssemblyInfo.cs
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.csproj.CoreCompileInputs.cache
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.MvcApplicationPartsAssemblyInfo.cs
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.MvcApplicationPartsAssemblyInfo.cache
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.sourcelink.json
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\staticwebassets.build.json
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\staticwebassets.development.json
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.datarepository-service.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.build.datarepository-service.props
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.datarepository-service.props
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.datarepository-service.props
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\scopedcss\bundle\datarepository-service.styles.css
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepo.A5F5E09E.Up2Date
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\refint\datarepository-service.dll
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.pdb
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\datarepository-service.genruntimeconfig.cache
+C:\Drive D\Projects\bis-coding-exercise\code\datarepository-service\obj\Debug\net8.0\ref\datarepository-service.dll
