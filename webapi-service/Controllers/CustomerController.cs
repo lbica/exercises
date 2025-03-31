@@ -117,6 +117,14 @@ namespace webapi.Controllers
 
             logger.LogInformation("Delete a Customer ");
 
+            var customer = _repository.GetById(customerId);
+
+            if (customer == null)
+            {
+                // If customer doesn't exist, return a Not Found (404) status with an error message
+                throw new WebApiServiceException("This customer can't be found");
+            }
+
 
             //delete from database
             await _repository.DeleteByIdAsync(customerId);

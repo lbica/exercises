@@ -27,10 +27,10 @@ namespace WebApi.Persistence.Configurations
                 Id = -1,
                 CustomerId = "Undefined",
                 Country = "Undefined",
-                InsertedDate = DateTime.Now,
-                UpdatedDate = DateTime.Now,
-                InsertedUser = "SYSTEM",
-                UpdatedUser = "SYSTEM"
+                //InsertedDate = DateTime.Now,
+                //UpdatedDate = DateTime.Now,
+                //InsertedUser = "SYSTEM",
+                //UpdatedUser = "SYSTEM"
             });
 
             //add default New record: ghost record for unknown
@@ -40,10 +40,10 @@ namespace WebApi.Persistence.Configurations
                 Id = -2,
                 CustomerId = "Unknown",
                 Country = "Unknown",
-                InsertedDate = DateTime.Now,
-                UpdatedDate = DateTime.Now,
-                InsertedUser = "SYSTEM",
-                UpdatedUser = "SYSTEM"
+                //InsertedDate = DateTime.Now,
+                //UpdatedDate = DateTime.Now,
+                //InsertedUser = "SYSTEM",
+                //UpdatedUser = "SYSTEM"
             });
 
         }

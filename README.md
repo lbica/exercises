@@ -1,12 +1,71 @@
 # BIS - Coding Exercise Data Analytics Engineer
 
-## Installation
+## Installation Requirements
 
 ### Docker
 
-Please install Docker on Linux or on Windows use Docker Desktop. Open a command prompt and navigate to the following path:
-bis-coding-exercise/airflow and run the following command:
+Please install Docker on Linux or on Windows use Docker Desktop. For this version Docker Desktop has been used on Windows 11.
 
+### GitHub
+
+Please install git client on your local machine or go to github [https://github.com/lbica/exercises](https://github.com/lbica/exercises) and download the source code. For clone use the follwing command in command prompt:
+
+*git clone https://github.com/lbica/exercises*
+
+For building the solution I have used Visual Studio Code and Visual Studio 2022 for webapi-service. However if you can open the root folder on Visual Studio Code will works too.
+
+## Solution/Project Structure
+
+The solution consist of many folders that are built for difference goal. In the folowing section I will present in a nuschel the goal of directory.
+
+![Visual Studio Code Project Structure](/assets/img/4.png)
+
+### etl-service description
+
+This service is the **ETL solution** for reading the input files (customers, products and order), apply the cleansing rules and load the currated data into a dimensional  model. However, in a real project the ingestion, cleansing/validation and results error including metadata  should be stored using a **Kimbal** approach with staging, core and mart layers or using a **Medalion** style: bronze, silver and gold layers.
+
+The etl-service consists of etl_task.py script that implmented many types of validation classified as following:
+
+
+| Name               | Type            | Description                                                                                                     |
+| -------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `empty_column`     | validation rule | This rule eliminates the empty value of a given column and logs the errors in log file for keep trace and debug |
+|                    |                 |                                                                                                                 |
+| `invalid_datatype` | validation rule |                                                                                                                 |
+| `negative_value`   | validation rule |                                                                                                                 |
+
+The folder *data* consist of input data received by ftp or other upstream processes. This is the input for **etl_task.py** script. For each validation rule there is a specific method e.g
+invalid_datatype that handle the rule based on a input dataframe and column name. Please check the comments inside each method for more details.
+
+![Data folder](/assets/img/5.png)
+
+
+![Data folder](/assets/img/6.png)
+
+### Airflow description
+
+In airflow folder I have created all requird configuration and dag script to orchestrate our etl-service. If you want to see the current scheduled task (according with specification) you can access the airflow UI using the following connection properties. For more details about how to start the services in docker container please check the Docker Configuration section.
+
+
+| Name         | Type   | Value                                                                                                                                 |
+| -------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `user`       | config | airflow                                                                                                                               |
+| `pass`       | config | airflow                                                                                                                               |
+| `web-ui-url` | config | [http://localhost:8080/](http://localhost:8080/)                                                                                      |
+|              |        | ](https://git-go.europe.phoenixcontact.com/ints-talend/pxc-cimt-framework-connections/-/blob/master/prod/config/salesforce_gcrm.prod) |
+
+### webapi-service description
+
+This service is built to handle the CRUD operations requests from users: postman, bruno or othe consumers. The application has been built using the ASP.Net Web API and dotnet8 as SDK.
+The application is runnign in a docker container and can be accssed at this url: [http://localhost:5163/swagger](http://localhost:5163/swagger). You can use swagger to test any CRUD operation. Please note that webapi-service it's using PostGres as data storage.
+
+![Swagger WebApi](/assets/img/10.png)
+
+**Note**: For handling exception I have created a GlobalExceptionErrorMiddleware and ResponseExcpetionFilter than handles all exceptions and present the result to the consumer in a JSON format. Please check below the payload of error json outcome. Entity Framework has been used as ORM Framework and DTOs objects for request/reponse data transfer. Automapper for mapping between DTos and Entities and viceversa.
+
+![Error Json](/assets/img/3.png)
+
+bis-coding-exercise/airflow and run the following command:
 *docker-compose up -d*
 
 After the execution all services must run in docker:
@@ -19,168 +78,154 @@ and then *docker run -p 5163:5163 --name webapi-service webapi-image* to run the
 
 It will create a image using the Dockerfile from web-service folder that can be used in *docker-compose.yml*
 
-## Services Description
+## Docker Containers
 
-### MySqlServer description
+Accoring with specification the entire solution using docker for containarization. Each folder (project) has it's own Dockerfile used t built the image for a dedicated purpose: e.g etl-service,
+webapi-service etc
+
+### docker-compose.yml
+
+In order thet all services to comuunicate one each other I have used a docker-compose file (see in the root of the solution). This file consist of all services definition , enironment variable or other commands required for the appropitae service.  For running the docker-compose.yml file please check the below section
+
+### Dockerfile
 
 This interface provides ERP P10 Cost Center data for Salesforce Countries from DES into GCRM Salesforce as a new object. Cost Centers are required to allocate costs for creating sample orders. Stakeholders are sales and marketing users which are allowed to create sample orders. Contacts during implementation were Thomas Scharfenberger from DPS Sales and Trutz Pohlenz from Business Area perspective.
 
-### Airflow description
+### Running the docker-compose.yml
 
-Please runs the follwing commands in order to start Airflow services.
+Please follow the next steps in order to have all services u and running.
 
-Relevant connection properties:
+*Important*: Please check the Installation scetion before running. Docker must runs on the host machine.
+
+1. open command prompt and go to the root application:
 
 
-| Name         | Type   | Value                                                                                                                                 |
-| -------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `user`       | config | airflow                                                                                                                               |
-| `pass`       | config | airflow                                                                                                                               |
-| `web-ui-url` | config | [http://localhost:8080/](http://localhost:8080/)                                                                                      |
-|              |        | ](https://git-go.europe.phoenixcontact.com/ints-talend/pxc-cimt-framework-connections/-/blob/master/prod/config/salesforce_gcrm.prod) |
+2. runs **docker-compose up -d**
+
+after 1 min (please note that maybe will takes more time due the images must be downloaded from remote docker hub )
+
+
+
+3. Pleae open the Docker Desktop or run docker ps. You should see all contaires in running state
+
+
+
+4. Open a browser and navigate to [http://localhost:8080](https://localhost:8080). You should see now the Airflow Web Interface. Navigates to DAG and enable the cleasing and ingestion task for one of the entity. This will runs according with requiremetsL daily or hourly (for orders).
+5. Go inside postgres docker comtainer and check the number of records for customers. You shoud  and empty table
+6. Go back in browser enable the cleansing and ingestion task for one of the entity (e.g. customers). This will runs according with requiremetsL daily or hourly (for orders) and aftet few seconds shoudl runs and apply cleansing and ingest the data into postgres customer table
+7. Go again inside postgres docker comtainer and check the number of records again for customers. You shoud  see now all currated records there.
 
 ### PostGres
 
 In order to conect to Postgres and execute the sql stament please use the follwing steps:
 
 1. Run from command prompt *docker exec -it airflow-postgres-1 /bin/bash*
-2. One you are inside tje containte execute: *psql -h localhost -U airflow -d airflow*
+2. One you are inside the container execute: *psql -h localhost -U airflow -d airflow*
 3. the psql cli will be shown
 
 ![PSQL](/assets/img/1.png)
 
-### WebApiServer description
 
-This is a web api service that will handle CRUD operations send by clients on port 5000.
+## Dimensional Modeling
 
-### Swagger URL
+- [Database Type](#database-type)
+- [Table Structure](#table-structure)
+  - [dim_products](#dim_products)
+  - [dim_customers](#dim_customers)
+  - [dim_date](#dim_date)
+  - [fact_orders](#fact_orders)
+- [Relationships](#relationships)
+- [Database Diagram](#database-Diagram)
 
-http://localhost:5000/swagger/index.html
+### Database type
 
-## Job Design
+- **Database system:** SQLLite
 
-#### I705_gcrm_salesforce_costcenter_main 0.1
+### Table structure
 
-The flowchart below shows process implementation
-
-![Process Description](/img/interfaces/customer-relationship-management/salesforce/ti705/ti705_costcenter_process_diagram.svg)
-
-### Connection Properties
-
-Relevant connection properties:
-
-
-| Name                       | Type       | Link                                                                                                                                                                                                   |
-| ---------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `connection.properties`    | Config     | [config/prod/gcrm/projectConfig/connection.properties)](https://git-go.europe.phoenixcontact.com/ints-talend/pxc-cimt-framework-v3-config/-/blob/master/prod/gcrm/projectConfig/connection.properties) |
-| `talendManage.prod`        | Connection | [connections/prod/config/talendManage.prod](https://git-go.europe.phoenixcontact.com/ints-talend/pxc-cimt-framework-connections/-/blob/develop/prod/config/talendManage.prod)                          |
-| `des_dataintegration.prod` | Connection | [connections/prod/config/des_dataintegration.prod](https://git-go.europe.phoenixcontact.com/ints-talend/pxc-cimt-framework-connections/-/blob/develop/prod/config/des_dataintegration.prod)            |
-| `salesforce.prod`          | Connection | [connections/prod/config/salesforce_gcrm.prod](https://git-go.europe.phoenixcontact.com/ints-talend/pxc-cimt-framework-connections/-/blob/master/prod/config/salesforce_gcrm.prod)                     |
-
-<br/>
-
-### Job specific Talend context properties
+#### dim_products
 
 
-| Parameter                  | Example                                                                                             | Description/Comment                                                                |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| p_force_load_from_date_utc | 1970-01-01 00:00:00                                                                                 | Start timestamp for full or partial reload. Leave empty for normal delta operation |
-| p_filter_vkorg             | "'1040','3140', '3160','3070','3040','3200','3010','3130','3060',<br />'3080','3100','1010','1015'" | This filter will select only this list of organization units                       |
+| Name            | Type         | Settings                                | References | Note         |
+| ----------------- | -------------- | ----------------------------------------- | ------------ | -------------- |
+| **product_key** | INTEGER      | 🔑 PK, not null , unique, autoincrement |            |              |
+| **stock_code**  | VARCHAR(30)  | not null , unique                       |            | Business key |
+| **description** | VARCHAR(255) | not null                                |            |              |
+| **unit_price**  | NUMERIC      | not null                                |            |              |
 
-<br/>
-
-### Processing Steps / Mapping Rules
-
-<br/>
-
-**Process Step 1**
+#### dim_customers
 
 
-| Step             | Description                                                                                                  | Business Entity              | Business Rule | Failure/Support |
-| ------------------ | -------------------------------------------------------------------------------------------------------------- | ------------------------------ | --------------- | ----------------- |
-| 1. Read DES data | Read data from DI_STAGE.SAPP10100_0COSTCENTER_ATTR_CURRENT,<br />DI_STAGE.SAPP10100_0COSTCENTER_TEXT_CURRENT | COSTCENTER related documents | see below     | -               |
+| Name             | Type         | Settings                                | References | Note         |
+| ------------------ | -------------- | ----------------------------------------- | ------------ | -------------- |
+| **customer_key** | INTEGER      | 🔑 PK, not null , unique, autoincrement |            |              |
+| **customer_id**  | VARCHAR(30)  | not null , unique                       |            | Business key |
+| **country**      | VARCHAR(255) | not null                                |            |              |
 
-**Business Rules**
-
-
-| # | Title                                                        | Description                                                                                                         |
-| --- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 1 | Select active CostCenter                                     | SAPP10100_0COSTCENTER_ATTR_CURRENT.DATETO = '2099-12-31' (means null in SAP). Only active cost centers are uploaded |
-| 2 | Select not blocked CostCenter                                | SAPP10100_0COSTCENTER_ATTR_CURRENT.BKZKP is null. x means cost center is blocked                                    |
-| 3 | Cost center with BKZR = 'X' can´t be used for sample orders | SAPP10100_0COSTCENTER_ATTR_CURRENT.BKZER is null                                                                    |
-|   |                                                              |                                                                                                                     |
-
-<br/>
-
-**Process Step 2**
+#### dim_date
 
 
-| Step                                                                  | Description | Business Entity | Business Rule | Failure/Support |
-| ----------------------------------------------------------------------- | ------------- | ----------------- | --------------- | ----------------- |
-| 1.Insert data into I705_GCRM_SALESFORCE_COSTCENTER_SEND staging table | type        | `CostCenter`    | see below     | -               |
+| Name          | Type         | Settings                 | References | Note                              |
+| --------------- | -------------- | -------------------------- | ------------ | ----------------------------------- |
+| **date_key**  | INTEGER      | 🔑 PK, not null , unique |            | Format: YYYYMMDD (e.g., 20250330) |
+| **full_date** | DATE         | not null , unique        |            | Business key                      |
+| **year**      | INTEGER      | not null                 |            |                                   |
+| **month**     | INTEGER      | not null                 |            |                                   |
+| **day**       | INTEGER      | not null                 |            |                                   |
+| **week_day**  | VARCHAR(255) | not null                 |            |                                   |
 
-**Business Rules**
-
-
-| # | Title                                                                   | Description                                                                                                         |
-| --- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 1 | retrieve only delta changes and SalesOrg based on p_filter_vkorg values | META_CORE_ENDDATE > (String)globalMap.get("last_run_date_as_sql_utc") AND  SALESORG__C IN ( context.p_filter_vkorg) |
-| 2 | generate new files                                                      | sf_CostCenter__c_insert0.csv, sf_CostCenter__c_insert1.csv etc                                                      |
-
-<br/>
-<br/>
-
-**Process Step 3**
+#### fact_orders
 
 
-| Step                               | Description | Business Entity | Business Rule | Failure/Support |
-| ------------------------------------ | ------------- | ----------------- | --------------- | ----------------- |
-| 1.Upload csv files into SalesForce | type        | `CostCenter__c` | see below     | -               |
+| Name             | Type         | Settings                      | References                                | Note               |
+| ------------------ | -------------- | ------------------------------- | ------------------------------------------- | -------------------- |
+| **invoice_no**   | VARCHAR(255) | 🔑 PK, not null               |                                           |                    |
+| **invoice_date** | INTEGER      | 🔑 PK, not null               | fk_fact_orders_invoice_date_dim_date      | stored as YYYYMMDD |
+| **product_key**  | INTEGER      | 🔑 PK, not null , default: -1 | fk_fact_orders_product_key_dim_products   |                    |
+| **quantity**     | INTEGER      | not null                      |                                           |                    |
+| **customer_key** | INTEGER      | 🔑 PK, not null , default: -1 | fk_fact_orders_customer_key_dim_customers |                    |
 
-**Business Rules**
+### Relationships
 
+- **fact_orders to dim_products**: many_to_one
+- **fact_orders to dim_customers**: many_to_one
+- **fact_orders to dim_date**: many_to_one
 
-| # | Title                                                                              | Description                                                                                                                                                                                                                                 |
-| --- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1 | For each file send page_size records to SalesForce using bulk api upsert operation | For each file send page_size records to SalesForce using bulk api upsert operationselect ASSET_ID   from DWL_ASSETS   WHERE SOURCE = 'teamcenter' AND TYPE = 'cad_pic' OR TYPE = 'tech_drawing' AND FILE_NAME =\<generated_target_file_name |
-| 2 | If failed catch the error into session table                                       | UPDATE I705_gcrm_salesforce_sessions with failure message and error status FAILED                                                                                                                                                           |
-| 3 | If success update with success status into session table                           | UPDATE I705_gcrm_salesforce_sessions with success status                                                                                                                                                                                    |
+### Database Diagram
 
-**Mapping**
+```mermaid
+erDiagram
+	fact_orders }o--|| dim_products : references
+	fact_orders }o--|| dim_customers : references
+	fact_orders }o--|| dim_date : references
 
+	dim_products {
+		INTEGER product_key
+		VARCHAR(30) stock_code
+		VARCHAR(255) description
+		NUMERIC unit_price
+	}
 
-| Target field            | Source field / Transformation rule           |
-| ------------------------- | ---------------------------------------------- |
-| CostCenterID__c         | SAPP10100_0COSTCENTER_ATTR_CURRENT.OBJNR     |
-| CostCenterNumber__c     | SAPP10100_0COSTCENTER_ATTR_CURRENT.KOSTL     |
-| FunctionalAreaNumber__c | SAPP10100_0COSTCENTER_ATTR_CURRENT.FUNC_AREA |
-| SalesOrg__c             | SAPP10100_0COSTCENTER_ATTR_CURRENT.BUKRS     |
-| Name                    | SAPP10100_0COSTCENTER_TEXT_CURRENT.TXTMD     |
-|                         |                                              |
+	dim_customers {
+		INTEGER customer_key
+		VARCHAR(30) customer_id
+		VARCHAR(255) country
+	}
 
-Release Notes
+	dim_date {
+		INTEGER date_key
+		DATE full_date
+		INTEGER year
+		INTEGER month
+		INTEGER day
+		VARCHAR(255) week_day
+	}
 
-
-| Jira                                                                                                                                                          | Publish Version | Developer           |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------------------- |
-| [[DMI-9074] GCRM: Upload of cost center - JIRA](https://jira.europe.phoenixcontact.com/browse/DMI-9074)https://jira.europe.phoenixcontact.com/browse/DMI-688) | 1.0.0           | Laurentiu<br />Bica |
-|                                                                                                                                                               |                 |                     |
-
-## Operation
-
-
-| Task Name                            | Project |
-| -------------------------------------- | --------- |
-| I705_gcrm_salesforce_costcenter_main | gcrm    |
-
-### Monitoring
-
-Monitoring is done with the Operational Dashboard and TAC in our daily standups
-
-### Job Trigger
-
-CronTrigger daily at 6 am ,14 pm and 20pm
-
-### Error Handling
-
-All relevant Talend components have option "Die on error" activated, so if any processing step fails, the entire job run will also fail. Restart will reprocess the last delta again (delta determination by tJobInstanceStart_1_PREV_JOB_START_DATE).
+	fact_orders {
+		VARCHAR(255) invoice_no
+		INTEGER invoice_date
+		INTEGER product_key
+		INTEGER quantity
+		INTEGER customer_key
+	}
+```

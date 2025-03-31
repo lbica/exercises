@@ -1,33 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\",
+  "WorkspaceRootPath": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\code\\webapi-service\\dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\code\\webapi-service\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\code\\webapi-service\\persistence\\repositories\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:persistence\\repositories\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\code\\webapi-service\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\code\\webapi-service\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\persistence\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:persistence\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\migrations\\20250329134027_initialload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:migrations\\20250329134027_initialload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\dtos\\customerreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:dtos\\customerreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:dtos\\customerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\persistence\\repositories\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:persistence\\repositories\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:dtos\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\code\\webapi-service\\actionfilters\\httpresponseexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\actionfilters\\httpresponseexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:actionfilters\\httpresponseexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\code\\webapi-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|c:\\drive d\\projects\\bis-coding-exercise\\webapi-service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5051934-E38B-45D3-82B5-B430E6B135D9}|webapi-service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,19 +58,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "Persistence\\Configurations\\CustomerConfiguration.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "RelativeToolTip": "Persistence\\Configurations\\CustomerConfiguration.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAASwCcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:47:24.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250329134027_InitialLoad.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Migrations\\20250329134027_InitialLoad.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250329134027_InitialLoad.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Migrations\\20250329134027_InitialLoad.cs",
+              "RelativeToolTip": "Migrations\\20250329134027_InitialLoad.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:46:54.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "Persistence\\AppDbContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:46:32.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:46:05.823Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "CustomerReadDto.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Dtos\\CustomerReadDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CustomerReadDto.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Dtos\\CustomerReadDto.cs",
+              "RelativeToolTip": "Dtos\\CustomerReadDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:37:11.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CustomerUpdateDto.cs",
-              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Dtos\\CustomerUpdateDto.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Dtos\\CustomerUpdateDto.cs",
               "RelativeDocumentMoniker": "Dtos\\CustomerUpdateDto.cs",
-              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Dtos\\CustomerUpdateDto.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Dtos\\CustomerUpdateDto.cs",
               "RelativeToolTip": "Dtos\\CustomerUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,78 +144,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Persistence\\Repositories\\Implementation\\GenericRepository.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Persistence\\Repositories\\Implementation\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\Implementation\\GenericRepository.cs",
-              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Persistence\\Repositories\\Implementation\\GenericRepository.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Persistence\\Repositories\\Implementation\\GenericRepository.cs",
               "RelativeToolTip": "Persistence\\Repositories\\Implementation\\GenericRepository.cs",
               "ViewState": "AQIAAEIAAAAAAAAAAAAiwE4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:43:45.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T13:43:45.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Controllers\\CustomerController.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAIAwwD8AAAApAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAWwIEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T13:20:08.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "HttpResponseExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\ActionFilters\\HttpResponseExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\ActionFilters\\HttpResponseExceptionFilter.cs",
               "RelativeDocumentMoniker": "ActionFilters\\HttpResponseExceptionFilter.cs",
-              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\ActionFilters\\HttpResponseExceptionFilter.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\ActionFilters\\HttpResponseExceptionFilter.cs",
               "RelativeToolTip": "ActionFilters\\HttpResponseExceptionFilter.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAMwC8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:19:36.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T13:19:36.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAQwFAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T13:15:54.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerCreateDto.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Dtos\\CustomerCreateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CustomerCreateDto.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Dtos\\CustomerCreateDto.cs",
+              "RelativeToolTip": "Dtos\\CustomerCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T13:13:01.179Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAQwFAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:15:54.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerCreateDto.cs",
-              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Dtos\\CustomerCreateDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\CustomerCreateDto.cs",
-              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Dtos\\CustomerCreateDto.cs",
-              "RelativeToolTip": "Dtos\\CustomerCreateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:13:01.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Models\\Customer.cs",
+              "DocumentMoniker": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\code\\webapi-service\\Models\\Customer.cs",
+              "ToolTip": "C:\\Drive D\\Projects\\bis-coding-exercise\\webapi-service\\Models\\Customer.cs",
               "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA0AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T13:10:44.775Z",
               "EditorCaption": ""

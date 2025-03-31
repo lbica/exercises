@@ -30,13 +30,13 @@ namespace webapi.Persistence
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             //set here the metadata/audit fields for each entity
-            foreach (var entry in base.ChangeTracker.Entries<BaseEntity>()
-                .Where(q => q.State == EntityState.Added || q.State == EntityState.Modified))
-            {
-                entry.Entity.UpdatedDate = DateTime.Now;
-                if (entry.State == EntityState.Added)
-                    entry.Entity.InsertedDate = DateTime.Now;
-            }
+            //foreach (var entry in base.ChangeTracker.Entries<BaseEntity>()
+            //    .Where(q => q.State == EntityState.Added || q.State == EntityState.Modified))
+            //{
+            //    entry.Entity.UpdatedDate = DateTime.Now;
+            //    if (entry.State == EntityState.Added)
+            //        entry.Entity.InsertedDate = DateTime.Now;
+            //}
             return base.SaveChangesAsync(cancellationToken);
         }
     }
