@@ -132,7 +132,12 @@ Use the **analytics.sql** file to run analytics statement on SqlLite or Postgres
 ![SqlLite execution](/assets/img/9.png)
 
 
+### Assets folder
 
+This folders consists of Dimensional Model image and other images used inside **Readme.md** file.
+
+
+![Dimensional Model](/assets/img/dimensional_model.png)
 
 
 ## Dimensional Modeling
