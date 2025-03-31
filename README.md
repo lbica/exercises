@@ -113,7 +113,7 @@ After the execution all services must run in docker:
 
 7. Go again inside postgres docker comtainer and check the number of records again for customers. You shoud  see now all currated records there.
 
-### PostGres
+### PostGres or SQLLite
 
 In order to conect to Postgres and execute the sql stament please use the follwing steps:
 
@@ -122,6 +122,17 @@ In order to conect to Postgres and execute the sql stament please use the follwi
 3. the psql cli will be shown
 
 ![PSQL](/assets/img/1.png)
+
+
+Use the **analytics.sql** file to run analytics statement on SqlLite or Postgres. For SqlLie I have used DB Browser for SqlLite.  
+
+![SQlLite](/assets/img/8.png)
+
+
+![SqlLite execution](/assets/img/9.png)
+
+
+
 
 
 ## Dimensional Modeling
