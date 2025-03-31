@@ -63,24 +63,11 @@ The application is runnign in a docker container and can be accssed at this url:
 
 **Note**: For handling exception I have created a GlobalExceptionErrorMiddleware and ResponseExcpetionFilter than handles all exceptions and present the result to the consumer in a JSON format. Please check below the payload of error json outcome. Entity Framework has been used as ORM Framework and DTOs objects for request/reponse data transfer. Automapper for mapping between DTos and Entities and viceversa.
 
-![Error Json](/assets/img/3.png)
 
-bis-coding-exercise/airflow and run the following command:
-*docker-compose up -d*
-
-After the execution all services must run in docker:
-
-![Docker Compose](/assets/img/2.png)
-
-*docker build -f webapi-service/Dockerfile -t webapi-image .*
-
-and then *docker run -p 5163:5163 --name webapi-service webapi-image* to run the container
-
-It will create a image using the Dockerfile from web-service folder that can be used in *docker-compose.yml*
 
 ## Docker Containers
 
-Accoring with specification the entire solution using docker for containarization. Each folder (project) has it's own Dockerfile used t built the image for a dedicated purpose: e.g etl-service,
+According with specification the entire solution using docker for containarization. Each folder (project) has it's own Dockerfile used t built the image for a dedicated purpose: e.g etl-service,
 webapi-service etc
 
 ### docker-compose.yml
@@ -93,9 +80,9 @@ This interface provides ERP P10 Cost Center data for Salesforce Countries from D
 
 ### Running the docker-compose.yml
 
-Please follow the next steps in order to have all services u and running.
+Please follow the next steps in order to have all services up and running.
 
-*Important*: Please check the Installation scetion before running. Docker must runs on the host machine.
+*Important*: Please check the Installation section before running. Docker must runs on the host machine.
 
 1. open command prompt and go to the root application:
 
@@ -104,15 +91,26 @@ Please follow the next steps in order to have all services u and running.
 
 after 1 min (please note that maybe will takes more time due the images must be downloaded from remote docker hub )
 
+![Error Json](/assets/img/3.png)
+
+bis-coding-exercise/airflow and run the following command:
+*docker-compose up -d*
+
+After the execution all services must run in docker:
+
+![Docker Compose](/assets/img/2.png)
 
 
-3. Pleae open the Docker Desktop or run docker ps. You should see all contaires in running state
+3. Please open the Docker Desktop or run docker ps. You should see all contaires in running state
 
 
 
 4. Open a browser and navigate to [http://localhost:8080](https://localhost:8080). You should see now the Airflow Web Interface. Navigates to DAG and enable the cleasing and ingestion task for one of the entity. This will runs according with requiremetsL daily or hourly (for orders).
+
 5. Go inside postgres docker comtainer and check the number of records for customers. You shoud  and empty table
+
 6. Go back in browser enable the cleansing and ingestion task for one of the entity (e.g. customers). This will runs according with requiremetsL daily or hourly (for orders) and aftet few seconds shoudl runs and apply cleansing and ingest the data into postgres customer table
+
 7. Go again inside postgres docker comtainer and check the number of records again for customers. You shoud  see now all currated records there.
 
 ### PostGres
