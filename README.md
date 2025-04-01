@@ -10,13 +10,13 @@ Please install Docker on Linux or on Windows use Docker Desktop. For this versio
 
 Please install git client on your local machine or go to github [https://github.com/lbica/exercises](https://github.com/lbica/exercises) and download the source code. For clone use the follwing command in command prompt:
 
-*git clone https://github.com/lbica/exercises*
+`git clone https://github.com/lbica/exercises`
 
 For building the solution I have used Visual Studio Code and Visual Studio 2022 for webapi-service. However if you can open the root folder on Visual Studio Code will works too.
 
 ## Solution/Project Structure
 
-The solution consist of many folders that are built for difference goal. In the folowing section I will present in a nuschel the goal of directory.
+The solution consist of many folders that are built for difference goal. In the folowing section I will describe each directory.
 
 ![Visual Studio Code Project Structure](/assets/img/4.png)
 
@@ -24,7 +24,7 @@ The solution consist of many folders that are built for difference goal. In the 
 
 This service is the **ETL solution** for reading the input files (customers, products and order), apply the cleansing rules and load the currated data into a dimensional  model. However, in a real project the ingestion, cleansing/validation and results error including metadata  should be stored using a **Kimbal** approach with staging, core and mart layers or using a **Medalion** style: bronze, silver and gold layers.
 
-The etl-service consists of etl_task.py script that implmented many types of validation classified as following:
+etl-service is a restfull built using `Flask`  that exposes below mentioned methods. It consists of `app.py` script as entry point that implemented variuos validation types classified as following:
 
 
 | Name               | Type            | Description                                                                                                     |
@@ -32,19 +32,27 @@ The etl-service consists of etl_task.py script that implmented many types of val
 | `empty_column`     | validation rule | This rule eliminates the empty value of a given column and logs the errors in log file for keep trace and debug |
 |                    |                 |                                                                                                                 |
 | `invalid_datatype` | validation rule |                                                                                                                 |
-| `negative_value`   | validation rule |                                                                                                                 |
+| `negative_value`   | validation rule |                                                                                                                 
+| `reference_entity`   | validation rule |                                                                                                                 References to other entities|
 
-The folder *data* consist of input data received by ftp or other upstream processes. This is the input for **etl_task.py** script. For each validation rule there is a specific method e.g
-invalid_datatype that handle the rule based on a input dataframe and column name. Please check the comments inside each method for more details.
+
+| Name               | Method Type            | Description                                                                                                     |
+| -------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `run_daily`     | POST | This runs products and customers validation and load the curated data  to postgres `dwh` database in `dim_products` and `dim_customers` tables. It. Other aditional validation hard rules can be added here.|
+| `run_hourly`     | POST | This runs orders validation and load to posgres `dwh` database in `fact_orders` table. I eliminates the empty values, dupplicates, references to other entities (dim_customers, dim_products)|
+
+The folder `data` consist of input data received by ftp or other upstream processes. This is the input for `app.py` script. in `sql/analytics.sql` you can find the sql statements reuired for this exercies. I have used pgAdmin4 for running Postgres sql statments and check the data
 
 ![Data folder](/assets/img/5.png)
 
 
 ![Data folder](/assets/img/6.png)
 
+![Data folder](/assets/img/11.png)
+
 ### Airflow description
 
-In airflow folder I have created all requird configuration and dag script to orchestrate our etl-service. If you want to see the current scheduled task (according with specification) you can access the airflow UI using the following connection properties. For more details about how to start the services in docker container please check the Docker Configuration section.
+In airflow folder I have created all required configuration and dag script to orchestrate our `etl-service`. If you want to see the current scheduled task (according with specification) you can access the airflow UI using the following connection properties. For more details about how to start the services in docker container please check the Docker Configuration section.
 
 
 | Name         | Type   | Value                                                                                                                                 |
@@ -52,89 +60,70 @@ In airflow folder I have created all requird configuration and dag script to orc
 | `user`       | config | airflow                                                                                                                               |
 | `pass`       | config | airflow                                                                                                                               |
 | `web-ui-url` | config | [http://localhost:8080/](http://localhost:8080/)                                                                                      |
-|              |        | ](https://git-go.europe.phoenixcontact.com/ints-talend/pxc-cimt-framework-connections/-/blob/master/prod/config/salesforce_gcrm.prod) |
+
 
 ### webapi-service description
 
-This service is built to handle the CRUD operations requests from users: postman, bruno or othe consumers. The application has been built using the ASP.Net Web API and dotnet8 as SDK.
-The application is runnign in a docker container and can be accssed at this url: [http://localhost:5163/swagger](http://localhost:5163/swagger). You can use swagger to test any CRUD operation. Please note that webapi-service it's using PostGres as data storage.
+This service is built to handle the CRUD operations requests from users: postman, bruno or othe consumers. The application has been built using the ASP.Net Web API and `dotnet8` as SDK.
+The application is runnign in a docker container and can be accssed at this url: [http://localhost:5163/swagger](http://localhost:5163/swagger). You can use swagger to test any CRUD operation. Please note that webapi-service it's using PostGres docker container as data storage.
 
 ![Swagger WebApi](/assets/img/10.png)
 
-**Note**: For handling exception I have created a GlobalExceptionErrorMiddleware and ResponseExcpetionFilter than handles all exceptions and present the result to the consumer in a JSON format. Please check below the payload of error json outcome. Entity Framework has been used as ORM Framework and DTOs objects for request/reponse data transfer. Automapper for mapping between DTos and Entities and viceversa.
+**`Note`**: For handling exception I have created a GlobalExceptionErrorMiddleware and ResponseExcpetionFilter than handles all exceptions and present the result to the consumer in a JSON format. Please check below the payload of error json outcome. `Entity Framework` has been used as ORM Framework and `DTOs` objects for request/reponse data transfer. `Automapper` for mapping between DTos and Entities and viceversa.
 
-
+![Error Json](/assets/img/3.png)
 
 ## Docker Containers
 
-According with specification the entire solution using docker for containarization. Each folder (project) has it's own Dockerfile used t built the image for a dedicated purpose: e.g etl-service,
+According with specification the entire solution using docker for containerization. Each folder (project) has it's own Dockerfile used to built the image for a dedicated purpose: e.g etl-service,
 webapi-service etc
 
 ### docker-compose.yml
 
-In order thet all services to comuunicate one each other I have used a docker-compose file (see in the root of the solution). This file consist of all services definition , enironment variable or other commands required for the appropitae service.  For running the docker-compose.yml file please check the below section
+In order thet all services to comunicate one each other I have used a `docker-compose` file (see in the root of the solution). This file consist of all services definition , enironment variable or other commands required for the appropitae service.  For running the docker-compose.yml file please check the below section
 
-### Dockerfile
-
-This interface provides ERP P10 Cost Center data for Salesforce Countries from DES into GCRM Salesforce as a new object. Cost Centers are required to allocate costs for creating sample orders. Stakeholders are sales and marketing users which are allowed to create sample orders. Contacts during implementation were Thomas Scharfenberger from DPS Sales and Trutz Pohlenz from Business Area perspective.
 
 ### Running the docker-compose.yml
 
 Please follow the next steps in order to have all services up and running.
 
-*Important*: Please check the Installation section before running. Docker must runs on the host machine.
+**`Important`**: Please check the Installation section before running. Docker must runs on the host machine.
 
 1. open command prompt and go to the root application:
 
 
-2. runs **docker-compose up -d**
+2. runs `docker-compose up --build -d`
 
 after 1 min (please note that maybe will takes more time due the images must be downloaded from remote docker hub )
 
-![Error Json](/assets/img/3.png)
-
-bis-coding-exercise/airflow and run the following command:
-*docker-compose up -d*
-
-After the execution all services must run in docker:
-
-![Docker Compose](/assets/img/2.png)
-
-
 3. Please open the Docker Desktop or run docker ps. You should see all contaires in running state
 
+![Error Json](/assets/img/2.png)
 
 
 4. Open a browser and navigate to [http://localhost:8080](https://localhost:8080). You should see now the Airflow Web Interface. Navigates to DAG and enable the cleasing and ingestion task for one of the entity. This will runs according with requiremetsL daily or hourly (for orders).
 
-5. Go inside postgres docker comtainer and check the number of records for customers. You shoud  and empty table
+5. Go inside postgres docker comtainer or used `pgAdmin` and check the number of records for customers. You shoud  and empty table. After calling e.g. `http://localhost:5000/run_daily` on `etl-service` using `Postman` you shoud see the dim_pructs and dim_custoerms are loaded with cleansed data. Please note that `fact_orders` **is not yet compleetd due the time presures**
 
-6. Go back in browser enable the cleansing and ingestion task for one of the entity (e.g. customers). This will runs according with requiremetsL daily or hourly (for orders) and aftet few seconds shoudl runs and apply cleansing and ingest the data into postgres customer table
+![Error Json](/assets/img/13.png)
 
-7. Go again inside postgres docker comtainer and check the number of records again for customers. You shoud  see now all currated records there.
-
-### PostGres or SQLLite
-
-In order to conect to Postgres and execute the sql stament please use the follwing steps:
-
-1. Run from command prompt *docker exec -it airflow-postgres-1 /bin/bash*
-2. One you are inside the container execute: *psql -h localhost -U airflow -d airflow*
-3. the psql cli will be shown
-
-![PSQL](/assets/img/1.png)
+![Error Json](/assets/img/12.png)
 
 
-Use the **analytics.sql** file to run analytics statement on SqlLite or Postgres. For SqlLie I have used DB Browser for SqlLite.  
 
-![SQlLite](/assets/img/8.png)
+### PostGres
 
+In order to conect to Postgres I have used `pgAdmin`
 
-![SqlLite execution](/assets/img/9.png)
+Use the `analytics.sql` file from `postgres\sql` folder to run analytics statement on Postgres.  
+
+![SQlLite](/assets/img/14.png)
+
 
 
 ### Assets folder
 
-This folders consists of Dimensional Model image and other images used inside **Readme.md** file.
+This folders consists of `Dimensional Model` image and other images used inside **Readme.md** file.
 
 
 ![Dimensional Model](/assets/img/dimensional_model.png)
@@ -153,7 +142,7 @@ This folders consists of Dimensional Model image and other images used inside **
 
 ### Database type
 
-- **Database system:** SQLLite
+- **Database system:** Postgres
 
 ### Table structure
 

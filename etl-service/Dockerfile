@@ -1,15 +1,11 @@
-FROM python:3.10
-
+FROM python:3.9
 WORKDIR /app
-
 COPY requirements.txt .
-# RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY main.py .
+COPY app.py .
 COPY data /app/data/
 
-WORKDIR /errors
 
-# CMD ["python", "main.py"]
-
-CMD ["tail", "-f", "/dev/null"]
+EXPOSE 5000
+CMD ["python", "app.py"]

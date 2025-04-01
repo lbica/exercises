@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 using System.Net;
 using System.Reflection;
+using Microsoft.Extensions.Options;
 
 namespace webapi.Extensions
 {
@@ -26,11 +27,17 @@ namespace webapi.Extensions
 
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlite(configuration.GetConnectionString("WebApiDatabaseConnectionString"))
-                .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
-                //.LogTo(Console.WriteLine, LogLevel.Information)
-                .EnableSensitiveDataLogging()
-                .EnableDetailedErrors();
+
+                options.UseNpgsql(configuration.GetConnectionString("WebApiDatabaseConnectionString"))
+                                .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
+                                //.LogTo(Console.WriteLine, LogLevel.Information)
+                                .EnableSensitiveDataLogging()
+                                .EnableDetailedErrors();
+                //options.UseSqlite(configuration.GetConnectionString("WebApiDatabaseConnectionString"))
+                //.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking)
+                ////.LogTo(Console.WriteLine, LogLevel.Information)
+                //.EnableSensitiveDataLogging()
+                //.EnableDetailedErrors();
             });
 
             //add scoped used application repositories

@@ -1,8 +1,4 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
-#For more information, please see https://aka.ms/containercompat
-
+# Use official .NET 8 runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 5163
@@ -10,14 +6,19 @@ EXPOSE 5163
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["webapi-service/webapi-service.csproj", "webapi-service/"]
+# COPY webapi-service/webapi-service.csproj webapi-service/
+
+COPY . webapi-service/
+
+RUN ls -la webapi-service/
+
 RUN dotnet restore "webapi-service/webapi-service.csproj"
-COPY . .
+
 WORKDIR "/src/webapi-service"
 RUN dotnet build "webapi-service.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "webapi-service.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "webapi-service.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app

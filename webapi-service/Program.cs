@@ -14,6 +14,11 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
 
+        // Log the current environment
+        var environment = builder.Environment.EnvironmentName;
+        Console.WriteLine($"Current Environment: {environment}");
+
+
         // Add services to the container.
         //builder.Services.AddCors(options =>
         //{
@@ -67,7 +72,7 @@ public class Program
         app.ConfigureExceptionHandler();
 
 
-        // Configure the HTTP request pipeline.
+        // Enable Swagger only in Development
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
@@ -76,10 +81,10 @@ public class Program
         }
 
 
-        app.UseHttpsRedirection();
+        //app.UseHttpsRedirection();
 
-        //app.UseAuthorization();
 
+        app.UseAuthorization();
         app.MapControllers();
 
         app.Run();

@@ -8,6 +8,7 @@ namespace webapi.Dtos
         [Required]
         public string CustomerId { get; set; }
 
+        [Required]
         public string Country { get; set; }
 
     }

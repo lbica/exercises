@@ -17,12 +17,34 @@ namespace webapi.Controllers
     public class CustomerController : WebAppControllerBase<CustomerController>
     {
         private readonly ICustomerRepository _repository;
-        //private readonly IMapper _mapper;
 
-        public CustomerController(ICustomerRepository repository, IMapper mapper, ILogger<CustomerController> logger) : 
+        private readonly IHostEnvironment _env;
+
+        public CustomerController(ICustomerRepository repository, IMapper mapper, ILogger<CustomerController> logger, IHostEnvironment env) : 
             base(logger, mapper)
         {
             _repository = repository;
+            _env = env;
+        }
+
+        [HttpGet]
+        [Route("/$/Ping")]
+        //End point for testing a[i due issues on docker container
+        public async Task<ObjectResult> Ping()
+        {
+            logger.LogInformation("--> Ping.");
+
+
+ 
+            var response = new ResponseDto<string>()
+            {
+                Data = String.Format("Application is running well on environment {0}", _env.EnvironmentName),
+                Title = CONST_TITLE_SUCCESS_RESPONSE
+            };
+
+            return Ok(response);
+
+
         }
 
         [HttpGet]
