@@ -4,19 +4,19 @@
 
 ### Docker
 
-Please install Docker on Linux or on Windows use Docker Desktop. For this version Docker Desktop has been used on Windows 11.
+Please install Docker on Linux or on Windows use Docker Desktop. For this version, Docker Desktop has been used on Windows 11.
 
 ### GitHub
 
-Please install git client on your local machine or go to github [https://github.com/lbica/exercises](https://github.com/lbica/exercises) and download the source code. For clone use the follwing command in command prompt:
+Please install git client on your local machine or go to github [https://github.com/lbica/exercises](https://github.com/lbica/exercises) and download the source code. For clone, use the follwing command in command prompt:
 
 `git clone https://github.com/lbica/exercises`
 
-For building the solution I have used Visual Studio Code and Visual Studio 2022 for webapi-service. However if you can open the root folder on Visual Studio Code will works too.
+For building the solution I have used Visual Studio Code and Visual Studio 2022 for `webapi-service` application. However, if you can open the root folder on Visual Studio Code will works too and built using `dotnet` tool
 
 ## Solution/Project Structure
 
-The solution consist of many folders that are built for difference goal. In the folowing section I will describe each directory.
+The solution consist of many folders that are built for various goals. In the folowing section I will describe each directory and application.
 
 ![Visual Studio Code Project Structure](/assets/img/4.png)
 
@@ -24,7 +24,7 @@ The solution consist of many folders that are built for difference goal. In the 
 
 This service is the **ETL solution** for reading the input files (customers, products and order), apply the cleansing rules and load the currated data into a dimensional  model. However, in a real project the ingestion, cleansing/validation and results error including metadata  should be stored using a **Kimbal** approach with staging, core and mart layers or using a **Medalion** style: bronze, silver and gold layers.
 
-etl-service is a restfull built using `Flask`  that exposes below mentioned methods. It consists of `app.py` script as entry point that implemented variuos validation types classified as following:
+etl-service is a restfull api application built using `Flask` framework in Python  that exposes the below mentioned end points. It consists of `app.py` script as entry point. Inside there are dedicated methods that implements variuos validation types classified as following:
 
 
 | Name               | Type            | Description                                                                                                     |
@@ -36,12 +36,15 @@ etl-service is a restfull built using `Flask`  that exposes below mentioned meth
 | `reference_entity`   | validation rule |                                                                                                                 References to other entities|
 
 
+**End Points for etl-service application**
+
 | Name               | Method Type            | Description                                                                                                     |
 | -------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `run_daily`     | POST | This runs products and customers validation and load the curated data  to postgres `dwh` database in `dim_products` and `dim_customers` tables. It. Other aditional validation hard rules can be added here.|
-| `run_hourly`     | POST | This runs orders validation and load to posgres `dwh` database in `fact_orders` table. I eliminates the empty values, dupplicates, references to other entities (dim_customers, dim_products)|
+| `run_daily`     | POST | This runs products and customers validation and load the curated data  to postgres `dwh` database in `dim_products` and `dim_customers` tables. Other aditional validation hard/soft rules can be added here.|
+| `run_hourly`     | POST | This runs orders validation and load to posgres `dwh` database in `fact_orders` table. It eliminates the empty values, duplicates, references to other entities (dim_customers, dim_products)|
 
-The folder `data` consist of input data received by ftp or other upstream processes. This is the input for `app.py` script. in `sql/analytics.sql` you can find the sql statements reuired for this exercies. I have used pgAdmin4 for running Postgres sql statments and check the data
+
+The folder `data` consist of input data received by ftp or other upstream processes. This is the input for `app.py` script. In `sql/analytics.sql` you can find the sql statements reuired for this exercies. I have used pgAdmin4 for running Postgres sql statments and check the data
 
 ![Data folder](/assets/img/5.png)
 
@@ -49,6 +52,8 @@ The folder `data` consist of input data received by ftp or other upstream proces
 ![Data folder](/assets/img/6.png)
 
 ![Data folder](/assets/img/11.png)
+
+
 
 ### Airflow description
 
